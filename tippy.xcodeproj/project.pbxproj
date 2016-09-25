@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E9ED8B51D8F137F0005CF98 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9ED8B41D8F137F0005CF98 /* SettingsViewController.swift */; };
+		0E9ED8B71D8F1A400005CF98 /* themeSingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9ED8B61D8F1A400005CF98 /* themeSingletonClass.swift */; };
 		0EF801781D8DFEF8005EF08F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF801771D8DFEF8005EF08F /* AppDelegate.swift */; };
 		0EF8017A1D8DFEF8005EF08F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF801791D8DFEF8005EF08F /* ViewController.swift */; };
 		0EF8017D1D8DFEF8005EF08F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF8017B1D8DFEF8005EF08F /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9ED8B41D8F137F0005CF98 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0E9ED8B61D8F1A400005CF98 /* themeSingletonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = themeSingletonClass.swift; sourceTree = "<group>"; };
 		0EF801741D8DFEF8005EF08F /* tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF801771D8DFEF8005EF08F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EF801791D8DFEF8005EF08F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				0EF801771D8DFEF8005EF08F /* AppDelegate.swift */,
 				0EF801791D8DFEF8005EF08F /* ViewController.swift */,
 				0EF8017B1D8DFEF8005EF08F /* Main.storyboard */,
+				0E9ED8B61D8F1A400005CF98 /* themeSingletonClass.swift */,
+				0E9ED8B41D8F137F0005CF98 /* SettingsViewController.swift */,
 				0EF8017E1D8DFEF8005EF08F /* Assets.xcassets */,
 				0EF801801D8DFEF8005EF08F /* LaunchScreen.storyboard */,
 				0EF801831D8DFEF8005EF08F /* Info.plist */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9ED8B71D8F1A400005CF98 /* themeSingletonClass.swift in Sources */,
 				0EF8017A1D8DFEF8005EF08F /* ViewController.swift in Sources */,
 				0EF801781D8DFEF8005EF08F /* AppDelegate.swift in Sources */,
+				0E9ED8B51D8F137F0005CF98 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				0EF8019E1D8DFEF9005EF08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF8019F1D8DFEF9005EF08F /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				0EF801A11D8DFEF9005EF08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF801A21D8DFEF9005EF08F /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				0EF801A41D8DFEF9005EF08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
